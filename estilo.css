@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	border:none;
+	padding:0;
+	outline:0;
+	box-sizing:border-box;
+	text-decoration:none
+}
+
+body{
+	background-color: #f7f7f7;
+	font-size: 12px;
+	font-family:'Arial', sans-serif ;
+	color: #333;
+}
+/*-------------------------header styles--------------------------------------*/
+h1{
+	color: #666;
+}
+
+.title{
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	padding: 1.5em;
+	font-size: 20px;
+}
+
+/*---------------------------menu styles------------------------------------*/
+
+.menu{
+	list-style: none;
+	font-size: 16px;
+}
+.menu .item{
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	padding-left: 35px;
+}
+.menu .subitem{
+	font-size: 13px;
+	color: steelblue;
+}
+.submenu{
+	display: none;
+	list-style: none;
+	padding-left: 30px;
+}
+.item i{
+	margin-right: 15px;
+}
+
+/*--------------------------conteudo styles---------------------------------*/
+.fundo{
+	float: right;
+	width: 82.5%;
+}
+.lateral{
+	float: left;
+	width: 17.5%;
+}
+.conteudo{
+	display: none;
+	border-left: 1px solid #d0d0d0;
+	width: 100%;
+	min-height: 530px;
+}
+.nulo{
+	width: 100%;
+	background-color: #d0d0d0;
+	min-height: 530px;
+}
+
+/*-------------------------------------------conteudo pesquisar styles----------------------------------------*/
+.pesquisa h2{
+	color: #666;
+	font-size: 32px;
+	padding: 1em 2em;
+}
+.pesquisa .limitp{
+	margin: 0 auto;
+	width: 80%;
+	padding: 30px;
+	font-size: 15px;
+	padding-top: 0;
+}
+.pesquisa form{
+	border: 1px solid #333;
+	border-radius: 10px;
+	padding: 5px 10px;
+	float: right;
+	width: 25%;
+	margin-bottom: 20px;
+}
+.pesquisa form i{
+	margin-right: 10px;
+}
+.pesquisa input{
+	border: 1px solid #ddd;
+}
+table{
+	clear: both;
+	border-collapse: collapse;
+}
+.pesquisa th{
+	background-color: #ddd;
+	border: 1px solid #000;
+	height: 30px;
+	width: 1%;
+}
+.pesquisa td{
+	background-color: #fff;
+	border: 1px solid #000;
+	height: 30px;
+	width: 1%;
+	text-align: center;
+}
+.pesquisa td:nth-of-type(6){
+	color: steelblue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*-------------------------------------------conteudo cadastrar styles----------------------------------------*/
+.cadastra form{
+	margin: 0 auto;
+	width: 70%;
+	padding: 30px;
+	font-size: 15px;
+	padding-top: 0;
+}
+.cadastra input[type=text]{
+	display: block;
+	padding: .7em 1.5em;
+	width: 80%;
+	margin-top: 5px;
+	border-radius: 7px;
+	border: 1px solid #bbb;
+}
+.cadastra div{
+	margin-bottom: 20px;
+}
+.cadastra h2{
+	color: #666;
+	font-size: 32px;
+	padding: 1em 2em;
+}
+.cadastra span{
+	display: block;
+	margin-bottom: 15px;
+}
+.cadastra input[type=radio]{
+	margin-right: 5px;
+}
+.cadastra .radiotype label{
+	margin-right: 15%;
+	width: 15%;
+	display: inline-block;
+}
+.cadastra input[type=submit]{
+	width: 20%;
+	height: 35px;
+	cursor: pointer;
+	background-color: limegreen;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+.cadastra input[type=submit]:hover{
+	background-color: darkgreen;
+}
+.cadastra p{
+	color: #f00;
+	margin-left: 3%;
+	margin-top: 5px;
+}
